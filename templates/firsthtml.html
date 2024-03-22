@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+table, th {
+  border: 1px solid black;
+  border-color:red;
+  border-collapse: collapse;
+}
+  th, td {
+  border-style:solid;
+  border-color:red;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<table class="center">
+    <tr>
+        <th width="50%">
+            <img src="{% static 'image/index.jpg'%}" alt="welcome">
+        </th>
+        <th width="50%">
+            WELCOME TO TTM HOMEPAGE
+        </th>
+    </tr>
+</table>
+</body>
+</html>
+
